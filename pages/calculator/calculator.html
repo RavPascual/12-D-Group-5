@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>TRADE TO UPGRADE LOAN CALCULATOR APP</h2>
+     <ion-item>
+      <ion-label> New Gadget Price (P)</ion-label>
+      <ion-input type="number" [(ngModel)]="newValue"></ion-input>
+    </ion-item>
+
+  <h3></h3>
+
+     <ion-item>
+      <ion-label>Old Phone Value (P)</ion-label>
+      <ion-input type="number" [(ngModel)]="oldValue"></ion-input>
+    </ion-item>
+  
+    <p>
+    Payment Terms : [9, 12 or 15 months]
+    </p>
+
+    <ion-item>
+      <ion-label>Payment Terms (P)</ion-label>
+      <ion-input type="number" [(ngModel)]="paymentTerms"></ion-input>
+    </ion-item>
+
+  <button ion-button color="success" (click)="compute()">COMPUTE</button>
+
+       <ion-item *ngIf="financedAmount">
+     <h4> Financed Amount: {{financedAmount | currency: '&#8369;'}} </h4>
+     </ion-item>
+
+        <ion-item *ngIf="totalInterestPayable">
+     <h4> Total Interest Payable: {{totalInterestPayable | currency: '&#8369;'}} </h4>
+     </ion-item>
+
+        <ion-item *ngIf="monthlyPayment">
+     <h4> Monthly Payment: {{monthlyPayment | currency: '&#8369;'}} </h4>
+     </ion-item>
+
+</ion-content>

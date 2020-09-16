@@ -1,0 +1,17 @@
+ion-content {
+  background: #6dd5fa;
+}
+h2 {
+  color:#2C7744;
+  font-family:fantasy;
+  font-size:60px;
+  text-align:center;
+}
+ion-item{
+  Background-color:#f0eede;
+}
+p{
+ font-family:fantasy;
+ color:#5A3F37;
+ font-size: 20px;
+}
