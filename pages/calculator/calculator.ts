@@ -19,12 +19,8 @@ export class CalculatorPage {
 
   }
 compute() {
-  this.financedAmount = (this.newValue - this.oldValue)
-}
-compute1() {
-  this.totalInterestPayable = (this.financedAmount * this.interestRate / 100) * this.paymentTerms
-}
-compute2() {
-  this.monthlyPayment = (this.financedAmount - this.totalInterestPayable) / this.paymentTerms
+  this.financedAmount = (this.newValue - this.oldValue);
+    this.totalInterestPayable = (this.financedAmount * this.interestRate / 100) * this.paymentTerms;
+    this.monthlyPayment = (this.financedAmount - this.totalInterestPayable) / this.paymentTerms
 }
 }
