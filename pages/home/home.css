@@ -5,7 +5,7 @@ ion-content {
 h1{
   color:#5A3F37;
   font-family:fantasy;
-  font-size:40px;
+  font-size:27px;
   text-align:center;
 }
 
@@ -42,7 +42,7 @@ color:#2C7744;
 }
 
 h6{
-max-width: 450px;
+max-width: 400px;
 height: auto;
 align-content: center;
 display: block;
