@@ -33,3 +33,12 @@ h4 {
   color:#2C7744;font-family:fantasy;font-size:90px;
   text-align: center;
 }
+h6{
+max-width: 140px;
+height: auto;
+align-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
