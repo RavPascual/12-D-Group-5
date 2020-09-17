@@ -33,9 +33,11 @@
 
   <button ion-button color="success" (click)="compute()">COMPUTE</button>
 
+<h3></h3>
+
   <ion-item *ngIf="financedAmount">
     <h4> Financed Amount: {{financedAmount | currency: '&#8369;'}} </h4>
-    <h5> Total Interest Payable: {{totalInterestPayable | currency: '&#8369;'}} </h5>
+    <h5> Total Interest Payable: {{totalInterestPayable| currency: '&#8369;'}} </h5>
     <h6> Monthly Payment: {{monthlyPayment | currency: '&#8369;'}} </h6>
      </ion-item>
 
