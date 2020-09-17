@@ -2,10 +2,17 @@ ion-content {
   background: #6dd5fa;
 }
 
+h1{
+  color:#5A3F37;
+  font-family:fantasy;
+  font-size:40px;
+  text-align:center;
+}
+
 h2 {
   color:#2C7744;
   font-family:fantasy;
-  font-size:80px;
+  font-size:97px;
   text-align:center;
 }
 
