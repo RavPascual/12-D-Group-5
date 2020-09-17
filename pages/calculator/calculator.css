@@ -1,12 +1,14 @@
 ion-content {
   background: #6dd5fa;
 }
+
 h2 {
   color:#2C7744;
   font-family:fantasy;
   font-size:67px;
   text-align:center;
 }
+
 ion-item{
   Background-color:#f0eede;
 }
@@ -15,8 +17,21 @@ p{
  color:#5A3F37;
  font-size: 20px;
 }
+
 button{
   font-family:fantasy;
   color:rgb(0, 0, 0);
   font-size: 30px;
+}
+
+h6{
+max-width: 140px;
+height: auto;
+align-content: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+color:#5A3F37;
+font-family:fantasy;
+font-size:38.5px;
 }
