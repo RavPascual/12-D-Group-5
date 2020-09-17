@@ -16,7 +16,7 @@
       <ion-input type="number" [(ngModel)]="newValue"></ion-input>
     </ion-item>
 
-<h3></h3>
+<h2></h2>
 
      <ion-item>
       <ion-label>Old Phone Value (P)</ion-label>
@@ -32,16 +32,16 @@
       <ion-input type="number" [(ngModel)]="paymentTerms"></ion-input>
     </ion-item>
     
-<h3></h3>
+<h2></h2>
 
   <button ion-button color="success" (click)="compute()">COMPUTE</button>
 
-<h3></h3>
+<h2></h2>
 
   <ion-item *ngIf="financedAmount">
-    <h4> Financed Amount: {{financedAmount | currency: '&#8369;'}} ; </h4>
-    <h5> Total Interest Payable: {{totalInterestPayable| currency: '&#8369;'}} </h5>
-    <h6> Monthly Payment: {{monthlyPayment | currency: '&#8369;'}} </h6>
+    <h4> Financed Amount: {{financedAmount | currency: '&#8369;'}} </h4> 
+    <h5> Total Interest Payable: {{totalInterestPayable| currency: '&#8369;'}};</h5>
+    <h3> Monthly Payment: {{monthlyPayment | currency: '&#8369;'}}; </h3>
      </ion-item>
 
 @GROUP5 TECH UPGRADE 2020
