@@ -39,9 +39,10 @@
 <h2></h2>
 
   <ion-item *ngIf="financedAmount">
-    <h4> Financed Amount: {{financedAmount | currency: '&#8369;'}} </h4> 
-    <h5> Total Interest Payable: {{totalInterestPayable| currency: '&#8369;'}};</h5>
-    <h3> Monthly Payment: {{monthlyPayment | currency: '&#8369;'}}; </h3>
+    <p> Old Phone Appraised Value : {{oldValue | currency: '&#8369;'}} </p>
+    <p> Financed Amount           : {{financedAmount | currency: '&#8369;'}} </p> 
+    <p> Total Interest Payable    : {{totalInterestPayable| currency: '&#8369;'}}</p>
+    <p> Monthly Payment           : {{monthlyPayment | currency: '&#8369;'}} </p>
      </ion-item>
 
 <h2></h2>
